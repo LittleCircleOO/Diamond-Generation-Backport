@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "diamond_generation_backport",
+  "version": "${version}",
+  "name": "Diamond Generation Backport",
+  "description": "Backport of the diamond generation change feature in version 23w31a.",
+  "authors": [
+    "LittleCircleOO"
+  ],
+  "contact": {
+    "website": "https://github.com/LittleCircleOO/Diamond-Generation-Backport",
+    "repo": "https://github.com/LittleCircleOO/Diamond-Generation-Backport"
+  },
+  "license": "MIT",
+  "icon": "assets/diamond_generation_backport/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.littlecircleoo.diamondgenerationbackport.DiamondGenerationBackport"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
